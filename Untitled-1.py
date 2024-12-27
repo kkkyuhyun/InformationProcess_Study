@@ -5,6 +5,8 @@ def func(lst):
 lst=[1,2,3,4,5,6]
 func(lst)
 print(sum(lst[::2])-sum(lst[1::2]))
+#짝수 인덱스 값들의 합(6+4+2) - 홀수 인덱스 값들의 합(1+3+5) = 3
+
 
 #len(lst) = 6, len(lst)//2=3(정수만)
 
