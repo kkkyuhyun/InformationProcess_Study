@@ -7,3 +7,8 @@ func(lst)
 print(sum(lst[::2])-sum(lst[1::2]))
 
 #len(lst) = 6, len(lst)//2=3(정수만)
+
+#len(lst) = 6, len(lst)//2=3(정수만)
+#i=0일 때 lst[0] 과 lst[-1] 교환 lst=[6,2,3,4,5,1]
+#i=1일 때 lst[1] 과 lst[-2] 교환 lst=[6,5,3,4,2,1]
+#i=2일 때 lst[2] 과 lst[-3] 교환 lst=[6,5,4,3,2,1]
